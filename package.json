@@ -2,9 +2,14 @@
   "name": "tidy-form-hook",
   "version": "1.0.0",
   "description": "This hook allows your React component forms to look extremely compact while sourcing all form-related data from a single JavaScript Object.",
+  "homepage": "https://github.com/tallescorradini/tiny-form-hook#readme",
   "main": "useForm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tallescorradini/tiny-form-hook.git"
   },
   "keywords": [
     "react",
