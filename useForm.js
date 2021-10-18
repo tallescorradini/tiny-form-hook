@@ -49,7 +49,7 @@ const useForm = (yup) => {
     const fieldName = e.target.name;
     const fieldValue = e.target.value;
 
-    const fieldHasErrors = errors[fieldName]?.length > 0;
+    const fieldHasErrors = errors[fieldName] && errors[fieldName].length > 0;
     if (fieldHasErrors) _validateField(fieldName, fieldValue);
 
     setValues((prev) => ({ ...prev, [fieldName]: fieldValue }));
